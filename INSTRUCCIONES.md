@@ -1,4 +1,19 @@
-# 🚀 AutoClicker Pro - Crear Ejecutable de Windows
+# 🚀 AutoClicker Ssamucr - Minecraft Mob Farm - Crear Ejecutable de Windows
+
+## 🎯 Propósito Específico
+
+Este AutoClicker está **diseñado específicamente para farming de mobs en Minecraft**:
+
+- **⚔️ Ataque automático:** Clic izquierdo cada 1-2 segundos (respeta cooldown de combate)
+- **🍖 Alimentación:** Clic derecho cada 10 ataques para comer (2 segundos mantenido)
+- **🦘 Anti-AFK:** Salto cada 10 ataques para evitar expulsión por inactividad
+- **📍 Posicionamiento:** Úsalo en zona segura de tu granja donde alcances a los mobs
+- **🛡️ Configuración:** Mano derecha (arma), mano izquierda (comida)
+
+### ⚖️ Uso Responsable
+- ✅ **Mundos singleplayer** y servidores privados
+- ✅ **Servidores públicos** que permitan autoclickers
+- ❌ **NO usar** en servidores que lo prohíban (riesgo de ban)
 
 ## 📋 Pasos para crear tu ejecutable .exe
 

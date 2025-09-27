@@ -8,32 +8,26 @@ y este proyecto adhiere a [Semantic Versioning](https://semver.org/spec/v2.0.0.h
 ## [1.0.0] - 2025-09-27
 
 ### ✨ Agregado
-- **AutoClicker GUI** - Interfaz gráfica completa con tkinter
+- **AutoClicker para Granjas de Mobs** - Interfaz gráfica especializada para farming en Minecraft
+- **Sistema de alimentación automática** - Clic derecho cada 10 ataques para comer
+- **Sistema anti-AFK integrado** - Saltos automáticos para evitar expulsión de servidores
+- **Respeto al cooldown de combate** - Intervalos de 1-2 segundos optimizados para Minecraft
 - **AutoClicker Consola** - Versión ligera para línea de comandos
-- **Anti-AFK Minecraft** - Script especializado para evitar AFK en juegos
+- **Anti-AFK General** - Script especializado para evitar AFK en exploración
 - **Compilador automático** - Scripts para crear ejecutables con PyInstaller
 - **Failsafe integrado** - Detención de emergencia moviendo mouse a esquinas
-- **Intervalos aleatorios** - Clics cada 1-2 segundos para parecer humano
-- **Acciones múltiples** - Combina clics, barra espaciadora y clic derecho
-- **Configuración de tiempo** - Duración personalizable
+- **Configuración de tiempo** - Duración personalizable para sesiones de farming
 - **Progreso visual** - Barra de progreso y estadísticas en tiempo real
 
-### 🛠️ Características Técnicas
-- **Gestión de hilos** - Ejecución no bloqueante en GUI
-- **Manejo robusto de errores** - Recuperación automática
-- **Compilación optimizada** - Ejecutable de ~13MB con PyInstaller
-- **Multiplataforma base** - Código adaptable a otros OS
+### 🎯 Funcionalidades Específicas para Minecraft
 
-### 📝 Funcionalidades Específicas
-
-#### AutoClicker GUI (`autoclick_gui.py`)
-- Interfaz gráfica intuitiva con controles visuales
-- Configuración de duración en minutos
-- Visualización de posición del mouse
-- Progreso con barra visual y tiempo restante
-- Botones de inicio/parada
-- Información de seguridad integrada
-- Manejo de cierre de ventana mejorado
+#### AutoClicker para Granjas de Mobs (`autoclick_gui.py`)
+- **Ataque automático** cada 1-2 segundos (respeta cooldown de Minecraft)
+- **Alimentación automática** cada 10 ataques con clic derecho (2 segundos)
+- **Sistema anti-AFK** con salto cada 10 ataques (500ms de barra espaciadora)
+- **Interfaz optimizada** para configuración de granjas de mobs
+- **Progreso detallado** con contador de ataques y tiempo de farming
+- **Configuración recomendada** para mano derecha (arma) y izquierda (comida)
 
 #### AutoClicker Consola (`autoclick.py`)
 - Versión ligera por línea de comandos

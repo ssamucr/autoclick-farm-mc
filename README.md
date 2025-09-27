@@ -1,35 +1,81 @@
-# 🖱️ AutoClicker Ssamucr
+# 🖱️ AutoClicker Ssamucr - Minecraft Mob Farm
 
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://python.org)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![License]## ⚠️ Advertencias Importantes
+
+- ⚠️ **Revisa las Reglas:** SIEMPRE verifica las reglas del servidor antes de usar
+- ⚠️ **Solo Granjas Propias:** Úsalo solo en tus propias granjas, no en áreas ajenas
+- ⚠️ **Supervisión:** No dejar funcionando sin supervisión por largos períodos
+- ⚠️ **Servidores Públicos:** Muchos servidores prohíben autoclickers - pueden banearte
+- ⚠️ **Posición del Cursor:** Verifica que estés apuntando a los mobs correctamente
+- ⚠️ **Comida Suficiente:** Asegúrate de tener suficiente comida en el inventario
+- ⚠️ **Zona Segura:** Verifica que los mobs no puedan dañarte desde tu posición//img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Platform](https://img.shields.io/badge/Platform-Windows-lightgrey.svg)](https://github.com/ssamucr/autoclicker-ssamucr)
 
-Un **AutoClicker** avanzado con interfaz gráfica para Windows que permite automatizar clics, pulsaciones de teclas y movimientos del mouse de forma inteligente y segura.
+Un **AutoClicker especializado para farming de mobs en Minecraft** con interfaz gráfica que permite automatizar el proceso de eliminar mobs en granjas, mantener al personaje alimentado y evitar ser expulsado por sistemas anti-AFK.
 
 ## ✨ Características Principales
 
-### 🖱️ **AutoClicker Pro (GUI)**
-- **Clics automáticos** cada 1-2 segundos (intervalo aleatorio)
-- **Barra espaciadora** cada 10 clics (mantenida 500ms)
-- **Clic derecho** cada 10 clics (mantenido 2 segundos)
+### 🏠 **AutoClicker para Granjas de Mobs (GUI)**
+- **Clic izquierdo automático** cada 1-2 segundos (respeta el cooldown de ataque de Minecraft)
+- **Alimentación automática** cada 10 ataques con clic derecho (2 segundos mantenido)
+- **Sistema anti-AFK** con salto cada 10 ataques (500ms de barra espaciadora)
 - **Interfaz gráfica intuitiva** con controles visuales
-- **Configuración de tiempo** personalizable
-- **Progreso en tiempo real** con barra visual
-- **Failsafe integrado** (mouse en esquinas para detener)
+- **Configuración de tiempo** personalizable para sesiones de farming
+- **Progreso en tiempo real** con barra visual y estadísticas
+- **Failsafe integrado** (mouse en esquinas para detener inmediatamente)
 
-### 🎮 **Anti-AFK para Minecraft**
-- **Movimientos automáticos** (W, A, S, D)
+### 🎮 **Anti-AFK General para Minecraft**
+- **Movimientos automáticos** (W, A, S, D) para exploración
 - **Saltos aleatorios** con barra espaciadora
 - **Ataques ocasionales** con clic izquierdo
 - **Movimiento de cámara** realista
-- **Patrones complejos** para evitar detección
-- **Frecuencia configurable** (1-2 minutos)
+- **Patrones complejos** para evitar detección de sistemas anti-AFK
+- **Frecuencia configurable** (1-2 minutos) para uso general
 
 ### 🔧 **Versiones Disponibles**
 - **Script con GUI** (`autoclick_gui.py`) - Interfaz gráfica completa
 - **Script consola** (`autoclick.py`) - Versión ligera por consola
 - **Anti-AFK** (`anti-afk.py`) - Especializado para juegos
 - **Ejecutable Windows** (`AutoClicker_Ssamucr.exe`) - Sin dependencias
+
+## 🏠 Propósito Específico: Farming de Mobs en Minecraft
+
+### 🎯 **¿Cómo Funciona?**
+Este AutoClicker está diseñado específicamente para **automatizar granjas de mobs en Minecraft**:
+
+1. **🗳️ Posicionamiento:** Colócate en una zona segura de tu granja donde puedas alcanzar a los mobs
+2. **⚔️ Ataque Automático:** El clic izquierdo cada 1-2 segundos respeta el cooldown de combate
+3. **🍖 Alimentación:** El clic derecho cada 10 ataques come automáticamente (mantener comida en mano izquierda)
+4. **🚀 Anti-AFK:** Los saltos cada 10 ataques evitan la expulsión por inactividad
+
+### 🛠️ **Configuración Recomendada:**
+- **Mano derecha:** Espada, hacha o herramienta de combate
+- **Mano izquierda:** Comida (pan, bistec cocido, manzanas doradas, etc.)
+- **Posición:** Zona segura donde los mobs estén al alcance pero no puedan dañarte
+- **Granja:** Funciona con cualquier tipo de granja de mobs (zombies, skeletons, endermen, etc.)
+
+### ⚙️ **Por Qué Estos Intervalos?**
+- **1-2 segundos entre ataques:** Respeta el sistema de cooldown de Minecraft para daño máximo
+- **Clic derecho por 2 segundos:** Tiempo necesario para comer completamente en Minecraft
+- **Salto cada 10 ataques:** Suficiente movimiento para evitar detección anti-AFK sin interferir
+
+## ⚖️ Uso Responsable y Legal
+
+### ✅ **Donde ES Apropiado Usar:**
+- **Mundos de un solo jugador** (singleplayer)
+- **Servidores privados** con amigos donde esté permitido
+- **Servidores públicos** que explícitamente permiten autoclickers
+- **Granjas propias** en tu territorio/base
+
+### ❌ **Donde NO Usar:**
+- **Servidores PvP** donde dé ventaja injusta
+- **Servidores que prohíben autoclickers** en sus reglas
+- **Sistemas de economía** donde afecte el balance del juego
+- **Áreas públicas** donde moleste a otros jugadores
+
+### 📜 **Importante:**
+**Siempre revisa las reglas del servidor antes de usar**. El uso de autoclickers puede estar prohibido en muchos servidores multiplayer. Este proyecto es para uso educativo y en entornos donde esté permitido.
 
 ## 🚀 Instalación y Uso
 
@@ -91,19 +137,24 @@ Un **AutoClicker** avanzado con interfaz gráfica para Windows que permite autom
 
 ## 🎯 Cómo Usar
 
-### **AutoClicker GUI:**
-1. **Abre** `AutoClicker_Ssamucr.exe` o ejecuta `python autoclick_gui.py`
-2. **Configura** la duración en minutos
-3. **Posiciona** el cursor donde quieres hacer clic
-4. **Presiona** "Iniciar AutoClicker"
-5. **Para detener:** Botón "Detener" o mueve el mouse a una esquina
+### **AutoClicker para Granjas de Mobs:**
+1. **Prepara tu granja:** Construye o encuentra una granja de mobs funcional
+2. **Posiciónate:** Colócate en una zona segura donde puedas golpear a los mobs
+3. **Equipa tu personaje:**
+   - Mano derecha: Espada, hacha o herramienta de combate
+   - Mano izquierda: Comida (pan, bistec, manzanas, etc.)
+4. **Abre** `AutoClicker_Ssamucr.exe` o ejecuta `python autoclick_gui.py`
+5. **Configura** el tiempo de farming (recomendado: 30-60 minutos máximo)
+6. **Posiciona** el cursor donde aparezcan los mobs
+7. **Presiona** "Iniciar AutoClicker"
+8. **Para detener:** Botón "Detener" o mueve el mouse a una esquina
 
-### **Anti-AFK Minecraft:**
+### **Anti-AFK General:**
 1. **Abre Minecraft** y entra al servidor/mundo
 2. **Ejecuta** `python anti-afk.py`
 3. **Configura** la duración deseada
-4. **Colócate** en un lugar seguro en el juego
-5. **El script** realizará acciones cada 1-2 minutos automáticamente
+4. **Colócate** en un lugar seguro
+5. **El script** realizará movimientos cada 1-2 minutos automáticamente
 
 ## ⚠️ Advertencias Importantes
 
@@ -175,18 +226,20 @@ pip install -r requirements.txt
 4. Push a la rama (`git push origin feature/nueva-caracteristica`)
 5. Crear Pull Request
 
-## 📊 Funcionalidades Técnicas
+## 📊 Funcionalidades Técnicas para Minecraft
 
-### **Configuraciones Avanzadas:**
-- **Intervalos aleatorios:** 1-2 segundos entre clics para parecer humano
-- **Múltiples acciones:** Combina clics, teclas y movimientos
+### **🎯 Configuraciones Específicas:**
+- **Intervalo de ataque:** 1-2 segundos (respeta cooldown de combate de Minecraft)
+- **Sistema de alimentación:** Cada 10 ataques para mantener la salud
+- **Anti-AFK:** Saltos periódicos para evitar expulsión por inactividad
 - **Gestión de hilos:** Ejecución no bloqueante en interfaz gráfica
 - **Manejo de errores:** Recuperación automática de errores menores
-- **Multiplataforma base:** Código adaptable a otros sistemas operativos
+- **Compatibilidad:** Funciona con todas las versiones de Minecraft
 
-### **Optimizaciones:**
+### **⚙️ Optimizaciones para Farming:**
 - **Memoria eficiente:** Uso mínimo de recursos del sistema
-- **CPU optimizado:** Pausas apropiadas para no sobrecargar el sistema
+- **CPU optimizado:** Pausas apropiadas para no afectar el rendimiento de Minecraft
+- **Intervalos inteligentes:** Aleatorios para parecer más humano
 - **Compilación optimizada:** Ejecutable de tamaño reducido con PyInstaller
 
 ## 🆘 Solución de Problemas
