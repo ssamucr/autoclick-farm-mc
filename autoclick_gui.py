@@ -16,7 +16,7 @@ class AutoClickerGUI:
         
         # Crear la ventana principal
         self.root = tk.Tk()
-        self.root.title("🖱️ AutoClicker Ssamucr")
+        self.root.title("🏠 AutoClicker Ssamucr - Minecraft Mob Farm")
         self.root.geometry("520x780")
         self.root.resizable(False, False)
         
@@ -33,7 +33,7 @@ class AutoClickerGUI:
         main_frame.grid(row=0, column=0, sticky=(tk.W, tk.E, tk.N, tk.S))
         
         # Título
-        title_label = ttk.Label(main_frame, text="🖱️ AutoClicker Ssamucr", font=("Arial", 16, "bold"))
+        title_label = ttk.Label(main_frame, text="🏠 AutoClicker - Minecraft Mob Farm", font=("Arial", 16, "bold"))
         title_label.grid(row=0, column=0, columnspan=2, pady=(0, 20))
         
         # Configuración de duración
