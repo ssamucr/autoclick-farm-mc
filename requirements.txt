@@ -1,0 +1,13 @@
+# AutoClicker Ssamucr - Dependencies
+# GUI Automation
+pyautogui>=0.9.54
+
+# Build executable (development only)
+pyinstaller>=6.10.0
+
+# Additional dependencies (automatically installed with pyautogui)
+# pymsgbox>=2.0.1
+# pytweening>=1.0.4
+# pyscreeze>=0.1.21
+# pygetwindow>=0.0.5
+# mouseinfo>=0.1.3
