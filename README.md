@@ -1,16 +1,17 @@
 # 🖱️ AutoClicker Ssamucr - Minecraft Mob Farm
 
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://python.org)
-[![License]## ⚠️ Advertencias Importantes
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Platform](https://img.shields.io/badge/Platform-Windows-lightgrey.svg)](https://github.com/ssamucr/autoclicker-ssamucr)
+
+## ⚠️ Uso adecuado
 
 - ⚠️ **Revisa las Reglas:** SIEMPRE verifica las reglas del servidor antes de usar
-- ⚠️ **Solo Granjas Propias:** Úsalo solo en tus propias granjas, no en áreas ajenas
 - ⚠️ **Supervisión:** No dejar funcionando sin supervisión por largos períodos
 - ⚠️ **Servidores Públicos:** Muchos servidores prohíben autoclickers - pueden banearte
 - ⚠️ **Posición del Cursor:** Verifica que estés apuntando a los mobs correctamente
 - ⚠️ **Comida Suficiente:** Asegúrate de tener suficiente comida en el inventario
-- ⚠️ **Zona Segura:** Verifica que los mobs no puedan dañarte desde tu posición//img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Platform](https://img.shields.io/badge/Platform-Windows-lightgrey.svg)](https://github.com/ssamucr/autoclicker-ssamucr)
+- ⚠️ **Zona Segura:** Verifica que los mobs no puedan dañarte desde tu posición
 
 Un **AutoClicker especializado para farming de mobs en Minecraft** con interfaz gráfica que permite automatizar el proceso de eliminar mobs en granjas, mantener al personaje alimentado y evitar ser expulsado por sistemas anti-AFK.
 
@@ -23,7 +24,7 @@ Un **AutoClicker especializado para farming de mobs en Minecraft** con interfaz 
 - **Interfaz gráfica intuitiva** con controles visuales
 - **Configuración de tiempo** personalizable para sesiones de farming
 - **Progreso en tiempo real** con barra visual y estadísticas
-- **Failsafe integrado** (mouse en esquinas para detener inmediatamente)
+- **Failsafe integrado** (mueve el mouse a las esquinas para detener inmediatamente)
 
 ### 🎮 **Anti-AFK General para Minecraft**
 - **Movimientos automáticos** (W, A, S, D) para exploración
@@ -50,10 +51,10 @@ Este AutoClicker está diseñado específicamente para **automatizar granjas de 
 4. **🚀 Anti-AFK:** Los saltos cada 10 ataques evitan la expulsión por inactividad
 
 ### 🛠️ **Configuración Recomendada:**
-- **Mano derecha:** Espada, hacha o herramienta de combate
+- **Mano derecha:** Espada, hacha o herramienta de combate (con mending preferiblemente para que no se rompa)
 - **Mano izquierda:** Comida (pan, bistec cocido, manzanas doradas, etc.)
 - **Posición:** Zona segura donde los mobs estén al alcance pero no puedan dañarte
-- **Granja:** Funciona con cualquier tipo de granja de mobs (zombies, skeletons, endermen, etc.)
+- **Granja:** Funciona con cualquier tipo de granja de mobs (zombies, skeletons, enderman, etc.)
 
 ### ⚙️ **Por Qué Estos Intervalos?**
 - **1-2 segundos entre ataques:** Respeta el sistema de cooldown de Minecraft para daño máximo
@@ -71,7 +72,6 @@ Este AutoClicker está diseñado específicamente para **automatizar granjas de 
 ### ❌ **Donde NO Usar:**
 - **Servidores PvP** donde dé ventaja injusta
 - **Servidores que prohíben autoclickers** en sus reglas
-- **Sistemas de economía** donde afecte el balance del juego
 - **Áreas públicas** donde moleste a otros jugadores
 
 ### 📜 **Importante:**
@@ -155,14 +155,6 @@ Este AutoClicker está diseñado específicamente para **automatizar granjas de 
 3. **Configura** la duración deseada
 4. **Colócate** en un lugar seguro
 5. **El script** realizará movimientos cada 1-2 minutos automáticamente
-
-## ⚠️ Advertencias Importantes
-
-- ⚠️ **Uso Responsable:** Solo usar donde esté permitido
-- ⚠️ **Juegos Online:** Algunos servidores pueden detectar y banear bots
-- ⚠️ **Posición del Mouse:** Verifica la posición antes de iniciar
-- ⚠️ **Supervisión:** No dejar funcionando sin supervisión por largos períodos
-- ⚠️ **Failsafe:** Siempre mantén activado el failsafe (habilitado por defecto)
 
 ## 🛡️ Seguridad y Failsafe
 
